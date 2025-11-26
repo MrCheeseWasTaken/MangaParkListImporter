@@ -43,7 +43,7 @@ more:
 
 ## Step 2
 
-1) open the [GetId.js](GetId.js) file
+1) open the [SetStatus.js](SetStatus.js) file
 2) at the top of the file, replace the text ```PUT_YOUR_SESSION_KEY_HERE``` with your MangaPark session, ensure it remains in quotation marks
 3) in command line, type ```node GetId.js```, this will slowly set the statuses of the mangas of MangaPark
 4) You're done, go to MangaPark and check in your library on the status tab, you're mangas should have been transferred
@@ -76,6 +76,7 @@ you can type ```node ListNotFound.js``` to display all not found mangas
 Then some of the manga did not have an equivilent on MangaPark or perhaps the title of the manga was not found, you will have to manually add those.
 
 you can type ```node ListNotFound.js``` to display all not found mangas
+
 
 
 
