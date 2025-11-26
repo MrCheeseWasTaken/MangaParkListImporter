@@ -20,7 +20,7 @@ This is used to import lists from other websites such as MAL or comick into Mang
 - download this repo as a whole. The repo folder will from now on be referred to as *the folder*
 - drag your xml list file into *the folder* and rename it to list.xml
 - open command line in the folder
-- (optional) type ```node - v``` into cmd to check node.js is installed
+- (optional) type ```node -v``` into cmd to check node.js is installed
 
 ## Getting MangaPark session key
 
@@ -76,5 +76,6 @@ you can type ```node ListNotFound.js``` to display all not found mangas
 Then some of the manga did not have an equivilent on MangaPark or perhaps the title of the manga was not found, you will have to manually add those.
 
 you can type ```node ListNotFound.js``` to display all not found mangas
+
 
 
