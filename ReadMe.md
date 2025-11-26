@@ -77,6 +77,10 @@ Then some of the manga did not have an equivilent on MangaPark or perhaps the ti
 
 you can type ```node ListNotFound.js``` to display all not found mangas
 
+## Some of the mangas are incorrect / not in my list
+
+Then probably the search didn't work well on the manga title and added the wrong manga, can't help much with that. You'll have to fix those manually.
+
 
 
 
