@@ -1,4 +1,4 @@
-# MangaListImporter
+# MangaParkListImporter
 
 This is used to import lists from other websites such as MAL or comick into MangaPark
 
@@ -76,4 +76,5 @@ you can type ```node ListNotFound.js``` to display all not found mangas
 Then some of the manga did not have an equivilent on MangaPark or perhaps the title of the manga was not found, you will have to manually add those.
 
 you can type ```node ListNotFound.js``` to display all not found mangas
+
 
