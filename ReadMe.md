@@ -11,6 +11,7 @@ This is used to import lists from other websites such as MAL or comick into Mang
 
 - [Node.js](https://nodejs.org/)
 - MAL/Comick manga list as xml file ([My list is not xml file](#faq_notXml))
+- OR Comick CSV file
 - MangaPark session key (needed to set follow on MangaPark)
 
 # Usage
@@ -18,7 +19,7 @@ This is used to import lists from other websites such as MAL or comick into Mang
 ## Prerequisites
 
 - download this repo as a whole. The repo folder will from now on be referred to as *the folder*
-- drag your xml list file into *the folder* and rename it to list.xml
+- drag your xml/csv list file into *the folder* and rename it to list.xml/list.csv
 - open command line in the folder
 - (optional) type ```node -v``` into cmd to check node.js is installed
 
@@ -30,6 +31,8 @@ This is used to import lists from other websites such as MAL or comick into Mang
 4) keep hold of it, you'll need it for the next steps
 
 ## Step 1
+
+If you are using CSV list file, do the same but use the [GetIdCSV.js](GetIdCSV.js) instead of [GetId.js](GetId.js)
 
 1) open the [GetId.js](GetId.js) file
 2) at the top of the file, replace the text ```PUT_YOUR_SESSION_KEY_HERE``` with your MangaPark session, ensure it remains in quotation marks
@@ -80,8 +83,3 @@ you can type ```node ListNotFound.js``` to display all not found mangas
 ## Some of the mangas are incorrect / not in my list
 
 Then probably the search didn't work well on the manga title and added the wrong manga, can't help much with that. You'll have to fix those manually.
-
-
-
-
-
